@@ -42,7 +42,7 @@ if (loginComponent != null) {
 
 定义一个`ComponentResolver`接口，只有一个接口，返回一个`Component`
 ```
-public interface ComponentResolver<T> {
+public interface ComponentResolver<T extends IComponent> {
     T getComponent();
 }
 ```
