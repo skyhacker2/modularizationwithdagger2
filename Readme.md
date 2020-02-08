@@ -9,7 +9,7 @@
 ![image](./images/组件化基本架构.png)
 
 1. App是一个壳工程，依赖component1/component2/component3/...
-2. 打包时，可以把某一个组件的依赖移除，不影响编译（gradle脚本里面注释掉implementation。
+2. 打包时，可以把某一个组件的依赖移除，不影响编译（gradle脚本里面注释掉implementation）。
 3. 组件之间不之间依赖。
 
 ## 组件之间的通讯
