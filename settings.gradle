@@ -1,0 +1,2 @@
+include ':app', ':core', ':component-login', ':navigation', ':export-api', ':component-home', ':component-account'
+rootProject.name='modularization-with-dagger2'
